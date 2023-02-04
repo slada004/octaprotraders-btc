@@ -10,6 +10,7 @@ let newarr
 let index
 // console.log(text);
 
+// To remove the .com in the domain name to make it a brandable name
 for (let i = 0; i < arr.length; i++) {
     // console.log(arr[i])
 
