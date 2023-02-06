@@ -1,5 +1,3 @@
-console.log('Sitename Working...')
-
 // const siteName1 = document.location.hostname;
 
 const text = document.getElementsByClassName('sitename');
@@ -35,11 +33,15 @@ for (let i = 0; i < text.length; i++) {
 // The code ends here
 
 (function siteNumberFunc() {
+    console.log('sitenumber working...')
     if (siteNumber === null) {
+        console.log('couldnt find sitenumber tag')
         return null;
     }
 
-    if (siteName === 'plantonicextrade.com') {
+    console.log(siteName);
+
+    if (siteName === 'platonicextrade.com') {
         siteNumber.textContent = '+1(479)485-1098'
     } else {
         return;
