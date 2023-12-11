@@ -17,7 +17,7 @@ if (document.getElementById('site-name') === null) {
 // } ());
 
 
-if (document.location.origin === 'https://octaprotraders.online') {
+if (document.location.origin === 'https://octaprotraders.site') {
   console.log('LocalHost');
 
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
